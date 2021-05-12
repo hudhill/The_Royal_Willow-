@@ -1,4 +1,5 @@
-class Customer:
+from src.person import Person 
+class Customer(Person):
     def __init__(self, name, age):
         self.name = name
         self.wallet = 100
